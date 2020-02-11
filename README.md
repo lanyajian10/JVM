@@ -32,5 +32,12 @@
     
     3.cn.itrast.memory       文件夹下为 内存空间相关内容
     
+    MyTest1 JVM内存空间划分
+    MyTest2 Java创建对象的过程和堆溢出     -Xms5m  -Xmx5m  设置堆最小最大为5M
+    MyTest3 栈溢出                       工具： jconsole jvisualVM   Xss栈大小参数
+    MyTest4 死锁                         工具： jconsole jvisualVM
+    MyTest5 方法区产生溢出                工具：依赖cglib
+    MyTest6 JVM命令行以及图形化工具        命令jcmd jps jmap jstat  
+                                         图形化工具 jmc
     
     4.待补充
