@@ -9,7 +9,7 @@
     1.该项目为在学习张龙老师的 《深入理解 JVM》 课程，部分代码不完整，会在温习的过程逐步补充，完整代码在笔记中都有所呈现。
     
     本项目分为四部分：
-    1.cn.ittest.ClassLoader 文件夹下为 类加载器相关内容
+    1.cn.itcast1.ClassLoader 文件夹下为 类加载器相关内容
     
     MyTest16 自定义类加载器
     MyTest17 命名空间
@@ -20,7 +20,7 @@
     MyTest26 线程上下文类加载器--使用
     MyTest27 JDBC的类加载器源码分析
     
-    2.cn.itcast.bytecode    文件夹下为 字节码文件相关内容学习
+    2.cn.itcast2.bytecode    文件夹下为 字节码文件相关内容学习
     
     MyTest1 字节码练习Demo1
     MyTest2 字节码练习Demo2
@@ -30,7 +30,7 @@
     MyTest6 方法的动态分派  多肽的重写
     MyTest8 解释执行/编译执行----（栈的指令集 与 基于寄存器的指令集）
     
-    3.cn.itrast.memory       文件夹下为 内存空间相关内容
+    3.cn.itcast3.memory       文件夹下为 内存空间相关内容
     
     MyTest1 JVM内存空间划分
     MyTest2 Java创建对象的过程和堆溢出     -Xms5m  -Xmx5m  设置堆最小最大为5M
@@ -40,4 +40,5 @@
     MyTest6 JVM命令行以及图形化工具        命令jcmd jps jmap jstat  
                                          图形化工具 jmc
     
-    4.待补充
+    4.cn.itcast4.gc           文件夹下为 垃圾回收器相关内容gc
+    
