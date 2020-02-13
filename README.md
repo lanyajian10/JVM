@@ -41,4 +41,8 @@
                                          图形化工具 jmc
     
     4.cn.itcast4.gc           文件夹下为 垃圾回收器相关内容gc
-    
+    MyTest1 GC部分参数以及日志讲解 
+    MyTest2 GC 阈值
+    MyTest3 GC 阈值和放入老年代的参数设置MaxTenuringThreshold
+    MyTest4 CMS垃圾回收机制
+    MyTest5 CMS无法处理浮动垃圾
