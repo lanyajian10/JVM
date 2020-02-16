@@ -14,7 +14,7 @@ package cn.itcast3.memory;
                                      新生代，老年代。Eden空间，From Survivor空间与To Survivor空间。
 
     方法区（Method Area）：           存储元信息，永久带（Permanent Generation）
-                                     从JDK1.8开始，已经彻底废弃永久带，使用原空间（meta space）
+                                     从JDK1.8开始，已经彻底废弃永久带，使用元空间（meta space）
 
     运行时常量池：                     方法区一部分
     直接内存（Direct Menery）：        对外内存，非JVM直接管理，操作系统管理
@@ -25,7 +25,7 @@ package cn.itcast3.memory;
 
     Stack Frame 栈帧
     在每个方法执行的时候生成的与其相关的栈帧   作为方法出人口
-    包含： 操作数栈、局部变量表、方法返回地址，引用类型等等信息
+    包含： 操作数栈、局部变量表、动态链接，方法返回地址，引用类型等等信息
  */
 /*
     堆：
